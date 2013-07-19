@@ -38,7 +38,7 @@ The simplest way to install Style Guide is to use [Bundler](http://gembundler.co
 Add Style Guide to your `Gemfile`:
 
 ```ruby
-group :development do
+group :test, :development do
   gem 'style-guide'
 end
 ```
